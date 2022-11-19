@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <div class="logo animate__animated animate__fadeInDown">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo cadel"></a>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./trabajos.html">Trabajos Realizados</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main id="main">
+
+        <section id="banner">
+            <img src="../img/banner-contacto.jpg" alt="banner">
+        </section>
+
+        <h1>Envianos tu consulta</h1>
+
+        <section class="contacto"">
+            
+    
+            <form action="enviar.php" method="get" class="formulario">
+
+                <div class="form-item">
+                    <label type="text-form" for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="form-imput" placeholder="Ingrese su Nombre">
+                </div>
+    
+                <div class="form-item">
+                    <label type="text-form" for="mail">Email</label>
+                    <input type="email" id="mail" class="form-imput" placeholder="Ingrese su Email">
+                </div>
+    
+                <div class="form-item">
+                    <label type="text-form" for="numero">Telefono</label>
+                    <input type="number" id="numero" class="form-imput" placeholder="Ingrese su Telefono">
+                </div>
+    
+                <div class="form-item">
+                    <label type="text-form" for="adjunto">Adjuntar</label>
+                    <input type="file" id="adjunto" class="form-imput">
+                </div>
+    
+                <div class="form-item">
+                    <label type="text-form" for="multi">Mensaje</label>
+                    <textarea name="multi" class="form-imput" id="multi" cols="30" rows="5"></textarea>
+                </div>
+    
+                <div class="form-item">
+                    <input type="submit" class="form-submit" value="Enviar">
+                </div>
+            </form>
+    
+        </section>
+    </main>
+
+
+    <footer id="footer">
+
+        <div class="footer-arriba">
+
+            <div class="iso">
+                <img src="../img/iso.png" alt="logo cadel">
+            </div>
+    
+            <div class="info-footer">
+                <ul>
+                    <li>danielv@cadelarte.com.ar</li>
+                    <li>1160370947</li>
+                    <li>Calle 123 - Buenos Aires - Argentina</li>
+                </ul>
+            </div>
+    
+            <div class="form-footer">
+                <p class="titulo-footer">Enterate de las novedades y promociones!</p>
+                <form action="">
+                    <label type="text" for="mail">Email</label>
+                    <input type="email" id="mail">
+                    <input type="submit" value="Enviar">
+                    
+                </form>
+            </div>
+        </div>
+
+        <div class="derecho">
+            <p>Cadel 2022 - Todos los derechos reservados - Buenos Aires Argentina</p>
+        </div>
+    </footer>
+</body>
+</html>
