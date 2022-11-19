@@ -7,7 +7,137 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 576px) {
+/* // Small devices (landscape phones, 375px and up) */
+@media (min-width: 375px) {
+    #header .logo img{
+        max-width: 340px;
+    
+    }
+
+    .banner img{
+        max-width: 375px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) {
+    #header .logo img{
+        max-width: 380px;
+    
+    }
+
+    .banner img{
+        max-width: 400px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 480px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 576px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 768px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 992px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 1200px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #header .logo img{
+        max-width: 400px;
+    
+    }
+
+    .banner img{
+        max-width: 1400px;
+    }
+
+    .parrafo{
+        font-size: 2rem;
+    }
+}
+/* @media screen and (max-width: 576px) {
     
 
     #header .logo img{
@@ -23,26 +153,6 @@
         font-size: 2rem;
     }
 
-/*     #main{
-        max-width: 480px;
-    }
-
-    #destacados {
-        max-width: 450px;
-    }
-
-    #destacados img{
-        max-width: 50%;
-
-    }
-
-    #destacados p{
-        font-size: 2rem;
-    }
-
-    .footer-arriba{
-        max-width: 480px;
-    } */
     
 }
 
@@ -61,7 +171,7 @@
         font-size: 2rem;
     }
 
-}
+} */
 
 
 body {
@@ -320,4 +430,3 @@ label[type="text-form"]{
     margin-bottom: 30px;
 
 }
-
