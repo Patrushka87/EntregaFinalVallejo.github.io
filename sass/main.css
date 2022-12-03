@@ -119,10 +119,6 @@ body {
   padding: 50px 60px 10px 60px;
   font-size: 20px;
 }
-#header .nav .search {
-  background-color: blue;
-  color: white;
-}
 
 .banner {
   display: flex;
@@ -149,7 +145,7 @@ body {
   color: blueviolet;
 }
 
-#destacados, #trabajos, #productos, #marcas {
+#destacados, #trabajos, #productos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -158,10 +154,10 @@ body {
   gap: 30px;
   padding: 80px;
 }
-#destacados .destacado, #trabajos .destacado, #productos .destacado, #marcas .destacado {
+#destacados .destacado, #trabajos .destacado, #productos .destacado {
   padding: 20px;
 }
-#destacados .destacado p, #trabajos .destacado p, #productos .destacado p, #marcas .destacado p {
+#destacados .destacado p, #trabajos .destacado p, #productos .destacado p {
   font-size: 30px;
   text-align: center;
 }
@@ -178,6 +174,15 @@ body {
   margin-bottom: 30px;
 }
 
+#marcas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  gap: 30px;
+  padding: 80px;
+}
 #marcas .marca {
   padding: 10px 40px 10px 40px;
 }
