@@ -1,0 +1,143 @@
+@media (min-width: $phone1) {
+    #header {
+        .logo img {
+            max-width: 340px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 375px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $phone2) {
+    #header {
+        .logo img {
+            max-width: 380px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 400px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $phone3) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 480px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $phone4) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 576px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $tablet) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 768px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $desktop) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 992px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $xdesktop) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 1200px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: $xxdesktop) {
+    #header {
+        .logo img {
+            max-width: 400px;
+        }
+    }
+
+    .banner {
+        img {
+            max-width: 1400px;
+        }
+    }
+
+    .parrafo {
+        font-size: 2rem;
+    }
+}

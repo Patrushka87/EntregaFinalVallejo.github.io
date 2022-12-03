@@ -1,0 +1,153 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    font-size: 40px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.parrafo-color {
+    @extend .parrafo;
+    color: tomato;
+}
+
+.parrafo-color {
+    @extend .parrafo;
+    color: blueviolet;
+}
+
+#destacados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    gap: 30px;
+    padding: 80px;
+
+    .destacado {
+        padding: 20px;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
+
+    p {
+        width: 1000px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+#marcas {
+    @extend #destacados;
+
+    .marca {
+        padding: 10px 40px 10px 40px;
+    }
+}
+
+#productos {
+    @extend #destacados;
+
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+}
+
+#trabajos {
+    @extend #destacados;
+
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 30px 0 30px 0;
+    padding-top: 15px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+}
+
+label[type="text-form"] {
+    margin: 10px;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-imput {
+    width: 100%;
+    background: none;
+    color: 706c6c;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-submit {
+    background-color: darkcyan;
+    color: #f5f7ff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 4px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}

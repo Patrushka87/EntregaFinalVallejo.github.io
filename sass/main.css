@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 375px) {
+  #header .logo img {
+    max-width: 340px;
+  }
+  .banner img {
+    max-width: 375px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 400px) {
+  #header .logo img {
+    max-width: 380px;
+  }
+  .banner img {
+    max-width: 400px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 480px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 576px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 576px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 768px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 992px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 1200px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1400px) {
+  #header .logo img {
+    max-width: 400px;
+  }
+  .banner img {
+    max-width: 1400px;
+  }
+  .parrafo, .parrafo-color {
+    font-size: 2rem;
+  }
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #ffffff;
+  background-image: radial-gradient(#f5f7ff 1.45px, #ffffff 1.45px);
+  background-size: 29px 29px;
+}
+
+#header .logo {
+  display: flex;
+  padding: 30px;
+  height: 150px;
+  margin-bottom: 25px;
+}
+#header .nav {
+  display: flex;
+  justify-content: center;
+}
+#header .nav ul li {
+  display: inline-block;
+}
+#header .nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 50px 60px 10px 60px;
+  font-size: 20px;
+}
+#header .nav .search {
+  background-color: blue;
+  color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  font-size: 40px;
+  margin-top: 50px;
+  background-color: aliceblue;
+}
+
+.parrafo, .parrafo-color {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.parrafo-color {
+  color: tomato;
+}
+
+.parrafo-color {
+  color: blueviolet;
+}
+
+#destacados, #trabajos, #productos, #marcas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  gap: 30px;
+  padding: 80px;
+}
+#destacados .destacado, #trabajos .destacado, #productos .destacado, #marcas .destacado {
+  padding: 20px;
+}
+#destacados .destacado p, #trabajos .destacado p, #productos .destacado p, #marcas .destacado p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#nosotros {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 0px 0px;
+}
+#nosotros p {
+  width: 1000px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#marcas .marca {
+  padding: 10px 40px 10px 40px;
+}
+
+#productos p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#trabajos p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 30px 0 30px 0;
+  padding-top: 15px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin: 30px 0 30px 0;
+}
+
+label[type=text-form] {
+  margin: 10px;
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-imput {
+  width: 100%;
+  background: none;
+  color: 706c6c;
+  padding: 0.6em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-submit {
+  background-color: darkcyan;
+  color: #f5f7ff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 4px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#footer .footer-arriba {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  gap: 30px;
+  padding: 80px;
+}
+#footer .footer-arriba ul li {
+  padding: 5px;
+}
+#footer .derecho {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+#footer .form-footer {
+  flex-direction: row;
+}
+#footer .form-footer p {
+  margin-bottom: 10px;
+}
+#footer .form-footer form label {
+  font-size: 15px;
+}
+#footer .iso img {
+  width: 130px;
+}/*# sourceMappingURL=main.css.map */

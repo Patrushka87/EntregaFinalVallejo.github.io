@@ -1,0 +1,39 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .footer-arriba {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: stretch;
+        gap: 30px;
+        padding: 80px;
+
+        ul li {
+            padding: 5px;
+        }
+    }
+    .derecho {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .form-footer {
+        flex-direction: row;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        form label {
+            font-size: 15px;
+        }
+    }
+    
+    .iso img {
+        width: 130px;
+    }
+}
